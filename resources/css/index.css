@@ -1,0 +1,140 @@
+html {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "Helvetica", sans-serif;
+}
+
+nav {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 960px;
+}
+
+.company {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+header {
+  background-image: url(../images/glasses-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headline {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.service-section {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 6rem;
+  justify-content: space-between;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+  width: 3.5rem;
+}
+
+.info-section {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.information{
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright{
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+.copyright img{
+  height: 1.5rem;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-right: 1rem;
+}
