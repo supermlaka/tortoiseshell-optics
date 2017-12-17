@@ -36,6 +36,10 @@ nav {
   margin-bottom: 1rem;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 header {
   background-image: url(../images/glasses-bg.png);
   background-position: center;
@@ -63,6 +67,73 @@ h1 {
   font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  nav {
+    margin-top: 0;
+    width: 100%;
+  }
+  header {
+    height: 25rem;
+  }
+  .headline {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .company {
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 720px){
+
+  .navbar{
+    display: none;
+  }
+
+  .mobile-nav{
+    display:inline;
+    padding: 1rem 2rem;
+  }
+
+  header{
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .headline{
+    margin-top: 9rem;
+    text-align: center;
+  }
+
+  h1{
+   font-size: 1rem;
+  }
+
+  .service-section {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3.77rem 0;
+  }
+
+  .service span{
+    font-size: 0.77rem;
+  }
+
+  .service img{
+    border-bottom: 1.54rem;
+  }
+
+  .info-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
 }
 
 .service-section {
@@ -114,24 +185,24 @@ h1 {
   margin-bottom: 4rem;
 }
 
-.information{
+.information {
   display: flex;
   justify-content: center;
 }
 
-footer{
+footer {
   background-color: azure;
   display: flex;
   justify-content: center;
 }
 
-.copyright{
+.copyright {
   width: 960px;
   display: flex;
   align-items: center;
 }
 
-.copyright img{
+.copyright img {
   height: 1.5rem;
   padding-left: 4rem;
   padding-top: 4rem;
